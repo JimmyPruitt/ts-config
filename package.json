@@ -1,0 +1,27 @@
+{
+  "name": "@jimmy/ts-config",
+  "version": "1.0.0",
+  "description": "Jimmy's TSConfig",
+  "main": "tsconfig.json",
+  "author": "Jimmy Pruitt",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}
