@@ -1,6 +1,6 @@
 {
   "name": "@jimmypruitt/ts-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Jimmy's TSConfig",
   "main": "tsconfig.json",
   "author": "Jimmy Pruitt",
